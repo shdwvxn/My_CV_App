@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/red"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=".@Shadow_Vixen"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="179dp"
+                android:layout_height="173dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/ktk" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Oleksandra Ratsiuk"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Junior kotlin developer"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/bio"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/line"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="201dp"
+                android:layout_height="37dp"
+                android:text="@string/my_interests"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/my_image"
+                android:layout_width="wrap_content"
+                android:layout_height="137dp"
+                android:layout_marginBottom="15dp"
+                android:contentDescription="@string/about_my_books"
+                android:src="@drawable/bkkk"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/my_png"
+                android:layout_width="wrap_content"
+                android:layout_height="156dp"
+                android:contentDescription="@string/my_anime"
+                android:src="@drawable/jpc" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="391dp"
+                android:layout_height="20dp"
+                android:text="@string/liniya"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/MyKnowledge"
+                android:layout_width="400dp"
+                android:layout_height="40dp"
+                android:text="My study path"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/college"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:text="@string/zhytomyr_agricultural_technical_college"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/path"
+                android:layout_width="240dp"
+                android:layout_height="44dp"
+                android:text="→ Since Sep of 2022"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/againliniya"
+                android:layout_width="391dp"
+                android:layout_height="20dp"
+                android:text="@string/liniya"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="400dp"
+                android:layout_height="40dp"
+                android:text="Contact me"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Myinsta"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:text="My instagram"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic|normal" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

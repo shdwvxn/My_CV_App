@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyCV</string>
+    <string name="line">___________________________________________________________________</string>
+    <string name="about_my_books">ABOUT MY BOOKS</string>
+    <string name="my_interests">My interests</string>
+    <string name="bio">17 y.o | Ukrainian | Russophobic | eng/ukr</string>
+    <string name="about_favs">I love reading books, and two of my favorites are No Longer Human and Thicker Than Blood. No Longer Human delves into the struggles of a man grappling with his identity and place in society, offering a profound and introspective narrative. Thicker Than Blood captivates with its intense exploration of family bonds, loyalty, and the complexities of human relationships. Both books leave a lasting impact with their compelling stories and deep themes.</string>
+    <string name="my_anime">Anime is a popular form of Japanese animation known for its vibrant art, engaging storylines, and diverse genres. Two of my favorite anime are Blue Lock and JoJo\'s Bizarre Adventure. Blue Lock is a thrilling sports anime about young soccer players competing to become the best striker in Japan. The intense competition and character development make it a captivating watch. JoJo\'s Bizarre Adventure follows the Joestar family across generations as they battle supernatural foes with their Stand abilities. Its imaginative storylines and memorable characters make it a standout in the anime world.</string>
+    <string name="something_manga">Anime is a popular form of Japanese animation known for its vibrant art, engaging storylines, and diverse genres. Two of my favorite anime are Blue Lock and JoJo\'s Bizarre Adventure. Blue Lock is a thrilling sports anime about young soccer players competing to become the best striker in Japan. The intense competition and character development make it a captivating watch. JoJo\'s Bizarre Adventure follows the Joestar family across generations as they battle supernatural foes with their Stand abilities. Its imaginative storylines and memorable characters make it a standout in the anime world.</string>
+    <string name="liniya">___________________________________________________________________</string>
+    <string name="zhytomyr_agricultural_technical_college">· Zhytomyr agricultural technical college</string>
+</resources>
